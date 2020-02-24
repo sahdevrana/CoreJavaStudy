@@ -1,5 +1,5 @@
 package sahdev.study.corejava.collection;
 
-public class HashMapEx {
+public class Map_HashMapEx {
 
 }
