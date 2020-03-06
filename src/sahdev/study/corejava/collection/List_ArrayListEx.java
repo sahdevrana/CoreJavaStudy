@@ -59,6 +59,12 @@ public class List_ArrayListEx {
 		List<String> subList = clonedArrayList.subList(2,6); //Create a sublist from existing cloned list, from index 2 to 6. 2 is included but 5 is not. 
 		System.out.println("Sublist values: "+subList);
 		
+		ArrayList<String> copyList = new ArrayList<String>(subList); // Sublist return a view so we can not create new Array list from that view. We can create a List from that to iterate. We cannot downcast that also else it will give class cast runtime exception.
+		copyList.forEach(p-> System.out.println(p));
+		
+		ArrayList<String> duplicateList = clonedArrayList;
+		duplicateList.forEach(p-> System.out.println(p));
+		
 		System.out.println("Size of subList: "+subList.size());
 		
 	}
