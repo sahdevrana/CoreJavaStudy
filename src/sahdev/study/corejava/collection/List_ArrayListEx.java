@@ -50,7 +50,7 @@ public class List_ArrayListEx {
 		Collections.sort(clonedArrayList); // It will sort passed collection in ascending order.
 		System.out.println("Ascending sorted cloned collection: \n"+clonedArrayList);
 		
-		Collections.reverse(clonedArrayList); // It will sort passed collection in descending order.
+		Collections.reverse(clonedArrayList); // It will reverse passed collection.
 		System.out.println("Descending sorted cloned collection: \n"+clonedArrayList);
 		
 		int lastIndexOfObject = clonedArrayList.lastIndexOf("Rana"); //Return last index of object Rana in cloned array list.
