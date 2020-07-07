@@ -1,2 +1,2 @@
 # CoreJavaStudy
-Full Core Java learning with Java 8
+Full Core Java training from HP and my own learning including Java 8
